@@ -66,7 +66,7 @@ createBlogPostContainer();
 
 
 
-function createNewPost(title, authorName, story, img) {
+function createNewPost(title, story, img,  authorName) {
     const postData = {
         title: title,
         story: story ,
